@@ -10,6 +10,16 @@ namespace TestDemo
     {
         static void Main(string[] args)
         {
+            try
+            {
+                Console.WriteLine("Test GitHub...");
+                
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
         }
+
     }
 }
